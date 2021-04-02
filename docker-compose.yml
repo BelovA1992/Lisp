@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  lisp:
+    image: for_lisp:latest
+    volumes:
+      - C:\Users\Public\Documents\lisp\common_lisp:/home/common_lisp
+      - C:\Users\Public\Documents\lisp\scheme:/home/scheme
+    build:
+      context: C:\Users\Public\Documents\lisp
+      dockerfile: DOCKERFILE

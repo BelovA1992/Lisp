@@ -1,0 +1,9 @@
+FROM debian:latest
+
+WORKDIR /home
+
+RUN mkdir /home/common_lisp /home/scheme
+VOLUME ["/home/common_lisp", "/home/scheme"]
+
+RUN dpkg --add-architecture i386
+RUN apt-get update && apt-get -y install cmucl:i386 chezscheme

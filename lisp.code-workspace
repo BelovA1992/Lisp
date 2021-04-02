@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "common_lisp"
+		},
+		{
+			"path": "scheme"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"docker-compose.files": [
+			"C:\\Users\\Public\\Documents\\lisp\\docker-compose.yml"
+		]
+	}
+}
