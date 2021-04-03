@@ -9,5 +9,5 @@
 (define (sum-sq x y)
     (+ (square x) (square y)))
 (display
-    (sum-sq (read) 3))
+    (sum-sq (read) (read)))
 (display "\n")
