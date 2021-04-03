@@ -1,0 +1,16 @@
+(top-level-programm (import (rnrs))
+
+(define (abs x)
+    (cond ((> x 0) x)
+           ((= x 0) 0)
+           ((< x 0) (- x))
+           ))
+
+(define (square x)
+    (* x x))
+
+(define (sum-sq x y)
+    (+ (square x) (square y)))
+
+(display (abs 
+    (sum-sq (- 2) 3))))
