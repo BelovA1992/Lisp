@@ -6,4 +6,4 @@
 (display "Enter two numbers -> Sum of their squares will be display\n")
 (display
     (sum-sq (read) (read)))
-(display "\n")
+(newline)
